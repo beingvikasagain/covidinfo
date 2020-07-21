@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Time: {{lastest_data}}</h1>
+        <div class="mt-5 row">
+
+          <div class="mt-1 btn btn-danger col-sm-4">
+            <h3>Total Cases: </h3>
+          </div>
+          <div class="mt-1 col-sm-6">
+            <h3>{{total_cases}}</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="mt-1 btn btn-primary col-sm-4">
+            <h3>Total Deaths: </h3>
+          </div>
+          <div class="mt-1 col-sm-6">
+            <h3>{{total_deaths}}</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="mt-1 btn btn-information col-sm-4">
+            <h3>Total Recovered: </h3>
+          </div>
+          <div class="mt-1 col-sm-6">
+            <h3>{{total_recovered}}</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class=" btn btn-warning col-sm-4">
+            <h3>Currently Infected: </h3>
+          </div>
+          <div class=" col-sm-6">
+            <h3>{{currently_infected}}</h3>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
